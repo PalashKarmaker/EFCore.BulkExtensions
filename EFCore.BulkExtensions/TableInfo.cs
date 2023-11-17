@@ -1146,7 +1146,7 @@ namespace EFCore.BulkExtensions;
     }
 
     // Compiled queries created manually to avoid EF Memory leak bug when using EF with dynamic SQL:
-    // https://github.com/borisdj/EFCore.BulkExtensions/issues/73
+    // https://github.com/PalashKarmaker/EFCore.BulkExtensions/issues/73
     // Once the following Issue gets fixed(expected in EF 3.0) this can be replaced with code segment: DirectQuery
     // https://github.com/aspnet/EntityFrameworkCore/issues/12905
     #region CompiledQuery
